@@ -1,6 +1,5 @@
 import { Avatar, Skeleton } from "antd";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-scroll";
 import {
   authApi,
   getUsers,
@@ -59,7 +58,6 @@ const UserList: React.FC = () => {
       alert("Error getting user activity");
     }
   }
-
 
   const handleUserDetails = async (id: string): Promise<void> => {
     setLoadingUserDetails(true);
