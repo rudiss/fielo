@@ -1,6 +1,6 @@
 import { Avatar, Divider, Skeleton } from "antd";
 import React from "react";
-import { IUser } from "../../services/fielo";
+import { IUser } from "../../services/user";
 
 import { BalanceContainer, Container } from "./styles";
 

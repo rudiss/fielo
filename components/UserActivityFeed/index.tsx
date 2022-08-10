@@ -2,7 +2,7 @@ import React from "react";
 import { Avatar, List, Skeleton } from "antd";
 import { Container } from "./styles";
 import { DateTime } from "luxon";
-import { IUserActivity } from "../../services/fielo";
+import { IUserActivity } from "../../services/user";
 
 type UserActivityFeedProps = {
   data: IUserActivity[];

@@ -9,7 +9,7 @@ import {
   IUsers,
   IUserActivities,
   IUserActivity,
-} from "../../services/fielo";
+} from "../../services/user";
 import UserActivityFeed from "../UserActivityFeed";
 import UserProfile from "../UserProfile";
 import { Wrapper, Container, Content, ListHeader, ListContent } from "./styles";
